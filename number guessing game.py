@@ -1,4 +1,4 @@
-#game using while loop 
+#number game using while loop 
 import random # imported a library
 random_number = random.randint(1, 100)
 #print(random_number)
