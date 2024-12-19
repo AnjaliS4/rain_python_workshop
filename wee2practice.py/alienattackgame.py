@@ -7,6 +7,7 @@
 def change_batter():
     print("you need to have the battery at 100")
     available_batteries = [50, 30, 4, 45, 12, 18, 30]
+    
 def setup_mission():
     print("Setting up for the mission ")
     available_foods = [ 
@@ -30,6 +31,7 @@ def alien_attack_game():
     print("Welcome to the Alien Attack game")
     print("Starting mission...")
 
+    # step 1: Setup the mission 
     crews_number, foods = setup_mission()
     print(f"You have {crews_number} astronuts and food available = {foods}")
     
@@ -40,4 +42,6 @@ def alien_attack_game():
     print("Your battery is dead please charge the battery")
     print("Mission Completed")
 
+    
+#Start the game/ call the function 
 alien_attack_game()
