@@ -44,4 +44,11 @@ class VirtualPet:
         
         return True 
     
-    def random
+    def random_event(self):
+        events = [
+            ("finds a toy", "happiness", 10),
+            ("finds a snack", "hunger", 10),
+            ("takes a suprise nap", "energy", 10)
+        ]
+        event = random.choice(events)
+        setattr(self, event[1], min(getattr(self,event[1])))
