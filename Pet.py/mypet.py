@@ -51,4 +51,10 @@ class VirtualPet:
             ("takes a suprise nap", "energy", 10)
         ]
         event = random.choice(events)
-        setattr(self, event[1], min(getattr(self,event[1])))
+        setattr(self, event[1], min(getattr(self,event[1])+ event[2], 100))
+        print(f"{self.name} {event[0]}! {event[1]. capitalize()} increase by {event[2]}.")
+
+def save_game(self):
+    with open("pet_save.json", "w") as files:
+        json.dump(self._dict_. file)
+    print("game saved!")
