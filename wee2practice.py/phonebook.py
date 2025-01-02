@@ -24,7 +24,7 @@ def store_contact(name, number, contacts={}):
 def phone_book():
     contacts ={}
     while True: 
-        name = input("Enter name")
+        name = input("Enter name") # use of dictionary in this loop 
         number = input ("Enter number")
         contacts = store_contact(name, number, contacts)
         user_choice = input("""
