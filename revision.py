@@ -17,7 +17,7 @@ def increment(number, by):
 
 print(increment(number=2, by=1))
 
-""" 
+
 
 class Employee:
     def __init__(self, first, last, pay):
@@ -40,7 +40,7 @@ emp_2 = Employee("tom", "lama", 60000)
 # print(emp_2)
 print(emp_1.fullname())
 
-"""
+
 emp_1.first = 'Ram'
 emp_1.last = 'Rai'
 emp_1.email = 'ram.rai@company.com'
@@ -50,6 +50,12 @@ emp_2.first = 'tom'
 emp_2.last = 'lama'
 emp_2.email = 'tom.lama@company.com'
 emp_2.pay = 60000
-"""
+
 print(emp_1.email)
 print(emp_2.email)
+
+""" 
+name = input("enter your name ")
+age = int(input("enter your age"))
+print("Hello," + name, + age)
+print(f"hi my name is {name}, and i am {age} years old")
