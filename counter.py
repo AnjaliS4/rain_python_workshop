@@ -1,9 +1,11 @@
-"""
+
 from collections import Counter
 
-text = #you are supposed to have a comment comma here 
+text = """
+
 python is an amazing programming language, python is fun to learn and powerful to use 
 
+        """ 
 words = text.lower(). split()
 word_count = Counter(words)
 
@@ -26,8 +28,9 @@ for task in tasks:
 print("Processing tasks:")
 while not task_queue.empty():
     print(task_queue.get())
-"""
+
     
+
 
 from collections import deque
 import random 
