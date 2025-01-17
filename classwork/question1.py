@@ -15,7 +15,8 @@ task_manager.append("Finish revising for test")
 
 print(f"task added {task_manager}")
 
-print(task_manager)
+
+print (task_manager)
 
 print("Processing tasks:")
 
@@ -35,4 +36,3 @@ else:
     print("there are tasks that you need to get done!!!!")
 
 
-# s
