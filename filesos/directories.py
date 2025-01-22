@@ -24,7 +24,7 @@ shutil.copy("example.txt", "copy_example.txt")
 
 # Move the copied file to a new location (renaming it in the process)
 
-shutil.move("copy_example.txt", "../moved_example.txt") # .. means the the file should move one step ahead
+shutil.move("copy_example.txt", "../moved_example.txt") # .. means the the file should move one step ahead so now moved_example will be ahead of copy example 
 
 # go back to the parent directory 
 os.chdir("..")
@@ -32,4 +32,4 @@ os.chdir("..")
 # Remove the test directory and its contents 
 shutil.rmtree("test_directory")
 os.remove("moved_example.txt") # Remove the moved file 
-print("Cleanup complete")
+print("Cleanup complete") # print that the cleanup is completed 
