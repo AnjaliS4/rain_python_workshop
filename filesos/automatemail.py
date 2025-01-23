@@ -1,12 +1,14 @@
+# can put this in Cv 
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 # 587 __> code for gmail n
 # nvof bers oduz kdqd
 
+
 # Email credentials
 sender_email = "anjalisimkhada5@gmail.com"
-receiver_email = "rumancha12@gmail.com"
+receiver_email =   " akhanda1477@gmail.com" #"aachalsimkhada193@gmail.com" # "athma2377@gmail.com",
 password = "nvof bers oduz kdqd" # Use app Password, NOT your Gmail passwords app testing 
 
 # Create the email 
@@ -16,7 +18,7 @@ message["To"] = receiver_email
 message["Subject"] = "Test Email"
 
 # Email Body 
-body = "Hello, this is a test email sent from python"
+body = "Hello, this is an automatic email that i made from python"
 message.attach(MIMEText(body, "plain"))
 
 # Send the email 
