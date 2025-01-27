@@ -37,3 +37,6 @@ if response.status_code == 200:
         ask_question(question, options, correct_answer)
 else:
     print(f"Failed to retrieve trivia questions. Status Code: {response.status_code}")
+
+
+# make new folder and push this code in github 
