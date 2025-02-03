@@ -8,7 +8,7 @@ from email.mime.multipart import MIMEMultipart
 
 # Email credentials
 sender_email = "anjalisimkhada5@gmail.com"
-receiver_email =   " akhanda1477@gmail.com" #"aachalsimkhada193@gmail.com" # "athma2377@gmail.com",
+receiver_email =    "simonstha225@gmailcom" # " akhanda1477@gmail.com" #"aachalsimkhada193@gmail.com" # "athma2377@gmail.com",
 password = "nvof bers oduz kdqd" # Use app Password, NOT your Gmail passwords app testing 
 
 # Create the email 
